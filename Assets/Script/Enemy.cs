@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Person : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    [SerializeField] string _nome = "Mario";
-    [SerializeField] int _idade;
-    [SerializeField] float _velocidade;
-    [SerializeField] GameObject _personagem;
+    [SerializeField] Transform _pos;
+    [SerializeField] Vector2 _pos2;
+
+    //float
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _pos.localScale = new Vector3(10, 2, 2);
     }
 
     // Update is called once per frame
