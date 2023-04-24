@@ -14,6 +14,7 @@ public class Atividade : MonoBehaviour
     [SerializeField] string _nome = "Bruna";
     [SerializeField] string _sobrenome;
     [SerializeField] string _nomecompleto;
+
     // Start is called before the first frame update
     void Start()
     {
